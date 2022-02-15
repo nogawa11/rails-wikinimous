@@ -1,0 +1,40 @@
+@import "bootstrap/scss/bootstrap";
+@import "font-awesome-sprockets";
+@import "font-awesome";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto+Slab:wght@100;200;300;400&family=Roboto:wght@100;300;400&display=swap');
+
+.article a {
+  text-decoration: none;
+  color: #4386c0;
+  font-family: 'Roboto Slab', serif;
+}
+
+.article a:hover {
+  text-decoration: underline;
+  color: #23527C;
+}
+
+p {
+  color: #3f3f3f;
+  font-family: 'Roboto', serif;
+  font-weight: 300;
+}
+
+h1, h2 {
+  font-family: 'Roboto Slab', serif;
+  color: #3f3f3f
+}
+
+.edit-delete-link a {
+  color: #4386c0;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.edit-delete-link a:hover {
+  color: #23527C;
+}
+
+.container {
+  width: 100%;
+}

@@ -1,0 +1,12 @@
+<div class="container mt-3">
+  <div class="row d-flex justify-content-center">
+    <div class="col-9">
+      <% @articles.each do |article| %>
+        <div class="article">
+          <h3><%= link_to article.title, article_path(article) %></h3>
+          <p><%= article.content.split(' ').first(25).join(' ') %></p>
+        </div>
+      <% end %>
+    </div>
+  </div>
+</div>

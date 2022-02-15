@@ -1,0 +1,17 @@
+<div class="container mt-3">
+  <div class="row d-flex justify-content-center">
+    <div class="col-9">
+        <div class="d-flex align-items-center border-bottom">
+          <h2 class="me-2"><%= @article.title %></h2>
+          <div class="edit-delete-link">
+            <%= link_to (edit_article_path(@article)) do %>
+              <i class="fas fa-pencil-alt"></i>
+            <% end %>
+            <%= link_to ("<i class='fas fa-trash-alt'></i>").html_safe, article_path(@article), method: :delete, data: { confirm: "Are you sure?" } %>
+          </div>
+        </div>
+
+        <p class="p-3"><%= @article.content %></p>
+    </div>
+  </div>
+</div>
