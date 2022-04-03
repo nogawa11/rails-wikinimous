@@ -1,6 +1,8 @@
 # Wikinimous
 
 A simple anonymous wiki, built to practice Rails, where anyone can create a new article or update an existing one.
+
+![9 Wikinimous copy screenshot](https://user-images.githubusercontent.com/94948064/161427627-1a483ed6-5f98-476d-af16-a6558a9f1910.png)
    
 ## Getting Started
 ### Setup
